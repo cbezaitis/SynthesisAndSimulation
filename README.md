@@ -1,8 +1,14 @@
 # Introduction
 
-Point of this repo to understand and remember how verilator works
+Point of this repo to:
+1. Understand and remember how verilator works
+2. Understand and remember how vivado non_project_mode works
 
-# Summary 
+# Vivado 
+TODO:
+
+# Verilator
+## Summary 
 
 1. Have your two system verilog file, you want to simulate
 2. The testbench is on "cpp", so you can use anything you want
@@ -11,12 +17,12 @@ Point of this repo to understand and remember how verilator works
 5. You can see the waveform with gtkwave
 
 
-# Extra
+## Extra
 
 ```
 verilator *
 ```
-# Requirements
+## Requirements
 
 ```
 sudo apt-get install verilator
@@ -29,7 +35,7 @@ sudo apt-get install gtkwave
 ```
 
 
-# Steps
+## Steps
 
 
 1. Compile
