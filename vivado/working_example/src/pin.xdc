@@ -1,8 +1,8 @@
-set_property -dict {PACKAGE_PIN U18 IOSTANDARD LVCMOS33} [get_ports clk] 
-create_clock -period 10 -name clk [get_ports clk]
+set_property -dict { PACKAGE_PIN E3    IOSTANDARD LVCMOS33 } [get_ports { clk }]; #IO_L12P_T1_MRCC_35 Sch=gclk[100]
+create_clock -add -name sys_clk_pin -period 10.00 -waveform {0 5} [get_ports { clk }];
 
-set_property -dict {PACKAGE_PIN M14 IOSTANDARD LVCMOS33} [get_ports led[0]] 
-set_property -dict {PACKAGE_PIN M15 IOSTANDARD LVCMOS33} [get_ports led[1]] 
-set_property -dict {PACKAGE_PIN K16 IOSTANDARD LVCMOS33} [get_ports led[2]] 
-set_property -dict {PACKAGE_PIN J16 IOSTANDARD LVCMOS33} [get_ports led[3]] 
 
+set_property -dict { PACKAGE_PIN H5    IOSTANDARD LVCMOS33 } [get_ports { led[0] }]; #IO_L24N_T3_35 Sch=led[4]
+set_property -dict { PACKAGE_PIN J5    IOSTANDARD LVCMOS33 } [get_ports { led[1] }]; #IO_25_35 Sch=led[5]
+set_property -dict { PACKAGE_PIN T9    IOSTANDARD LVCMOS33 } [get_ports { led[2] }]; #IO_L24P_T3_A01_D17_14 Sch=led[6]
+set_property -dict { PACKAGE_PIN T10   IOSTANDARD LVCMOS33 } [get_ports { led[3] }]; #IO_L24N_T3_A00_D16_14 Sch=led[7]
