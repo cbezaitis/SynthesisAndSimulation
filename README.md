@@ -3,6 +3,13 @@
 Point of this repo to:
 1. Understand and remember how verilator works
 2. Understand and remember how vivado non_project_mode works
+   
+# Install
+1. Before installing vivado, install the following drivers
+https://adaptivesupport.amd.com/s/question/0D52E00006hpmTmSAI/vivado-20183-final-processing-hangs-at-generating-installed-device-list-on-ubuntu-1904?language=en_US 
+
+2. Artix 7 Seven Contraints file :
+ https://github.com/Digilent/digilent-xdc/blob/master/Arty-A7-35-Master.xdc#L6
 
 # Vivado 
 TODO:
@@ -58,5 +65,4 @@ Vand_gate
 gtkwave waveform.vcd
 ```
 
-## Artix 7 Contraints
-https://github.com/Digilent/digilent-xdc/blob/master/Arty-A7-35-Master.xdc#L6
+
