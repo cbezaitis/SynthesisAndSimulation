@@ -57,3 +57,6 @@ Vand_gate
 ```
 gtkwave waveform.vcd
 ```
+
+## Artix 7 Contraints
+https://github.com/Digilent/digilent-xdc/blob/master/Arty-A7-35-Master.xdc#L6
