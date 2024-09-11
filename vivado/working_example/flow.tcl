@@ -2,7 +2,7 @@
 set top_module_name top
 set outputDir ./synth_tmp
 file mkdir $outputDir
-set_part xc7z020clg400-1
+set_part XC7A35TICSG324-1L
 
 # step#1: Setup design sources and constraints.
 read_verilog ./src/top.v
