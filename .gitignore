@@ -4,3 +4,4 @@ vivado/working_example/synth_tmp/
 *.log
 *jou
 *.out
+synth_tmp
