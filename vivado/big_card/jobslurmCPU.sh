@@ -15,7 +15,7 @@
 
 
 # Source vivado 
-source /cluster/projects/itea_lille-ie-idi/opt/Xilinx/Vivado/default/settings64.sh 
+source /cluster/projects/itea_lille-ie-idi/opt/Xilinx-2024/Vivado/2024.2/settings64.sh 
 
 
 

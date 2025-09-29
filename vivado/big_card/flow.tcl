@@ -8,7 +8,8 @@ set_part xcu250-figd2104-2L-e
 read_verilog ./src/top.v
 #generate_target {Synthesis} [get_files ./ip/pll/pll.xci]
 #read_verilog [ glob ./ip/pll/*.v ]
-read_xdc ./src/pin.xdc
+read_xdc ./src/small.xdc
+# create_clock -period 3.3 -name default
 
 # step#2: Run synthesis, report utilization and timing estimates, write checkpoint design.
 #synth_ip [get_ips pll] -force
